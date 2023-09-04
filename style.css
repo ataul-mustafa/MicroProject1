@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 70vh;
+    background-color: #FFCD9E;
+    display: flex;
+    justify-content: space-between;
+}
+
+main>section {
+    width: 50vw;
+    padding: 65px 90px;
+}
+
+main>.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main>.left>h1 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+main>.left>#text1 {
+    color: #484848;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+main>.left>#text2 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+main>.left>form {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+main>.left>form > input {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+main>.left>form > input[type='submit'] {
+    background-color: black;
+    color: #fff;
+}
+
+main > .left > #text3 {
+        margin-left: 20px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25.6px;
+}
+
+main > .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main > .right > img {
+    width: 300px;
+    text-align: right;
+}
+
+footer{
+    height: 30vh;
+}
+
+
+footer > section {
+    height: 100%;
+    background-color: #282828;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 130px;
+}
+
+footer > section > ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer > section > ul > li {
+        list-style: none;
+        color: #fff;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 200;
+}
+
+footer > section > #second > li {
+    text-align: end;
+}
